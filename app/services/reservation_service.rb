@@ -2,6 +2,17 @@
 
 ##
 class ReservationService
+  """
+    Main Service used for accepting dynamic Reservation payload
+    The json file is what is keeping track of which possible keys 
+    for a corresponding field.
+
+    (app/assets/api/reservation_data_mapping.json)
+
+    In the event a third payload is introduced, we could just simply
+    add the keys to the json file which corresponds to the db field.
+  """
+
   def initialize(payload)
     @payload = payload
 

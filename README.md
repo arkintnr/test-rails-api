@@ -1,26 +1,29 @@
-# test-rails-api
-
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Requirements
 
-Things you may want to cover:
+1. Ruby version => 3.0.2
+2. Postgresql
 
-* Ruby version
+# Set up
 
-* System dependencies
+1. Clone `test-rails-api` repository
+2. Run `bundle install`
 
-* Configuration
+# DB Setup
 
-* Database creation
+1. Update database.yml file
+2. run `rails db:setup`
+3. run `rails db:seed`
 
-* Database initialization
+# Running of Test Scripts using Rspec
 
-* How to run the test suite
+1. run `rspec`
 
-* Services (job queues, cache servers, search engines, etc.)
+# Run the Server
 
-* Deployment instructions
+1. run `rails s`
 
-* ...
+# API Doc
+
+1. go to `localhost:3000/apipie`
