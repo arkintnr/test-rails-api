@@ -11,5 +11,9 @@
     "children": ["children", "number_of_children"],
     "infants": ["infants", "number_of_infants"],
     "status": ["status", "status_type"],
-    "guest_id": ["guest_id", "id"]
+    "guest_id": ["guest_id", "id"],
+    "first_name": ["first_name", "guest_first_name"],
+    "last_name": ["last_name", "guest_last_name"],
+    "phone": ["phone", "guest_phone_numbers"],
+    "email": ["email", "guest_email"]
 }
