@@ -23,7 +23,3 @@
 # Run the Server
 
 1. run `rails s`
-
-# API Doc
-
-1. go to `localhost:3000/apipie`
